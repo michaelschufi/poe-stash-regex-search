@@ -35,30 +35,30 @@ This is a collection of patterns I found useful <sup>- which maybe someday will 
 
 - Strength
   ```
-  class x "^str" "!(^dex)"
+  "class: x" "^str" "!(^dex)"
   ```
 
 - Dexterity
   ```
-  class x "^dex" "!(^(str|int))"
+  "class: x" "^dex" "!(^(str|int))"
   ```
 
 - Intelligence
   ```
-  class x "^int" "!(^(str|dex))"
+  "class: x" "^int" "!(^(str|dex))"
   ```
 
 - Strength / Dexterity
   ```
-  class x str: dex:
+  "class: x" str: dex:
   ```
 
 - Strength / Intelligence
   ```
-  class x dex: str:
+  "class: x" dex: str:
   ```
 
 - Dexterity / Intelligence
   ```
-  class x dex: int:
+  "class: x" dex: int:
   ```
