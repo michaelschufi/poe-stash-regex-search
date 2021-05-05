@@ -6,6 +6,8 @@ This is a collection of patterns I found useful <sup>- which maybe someday will 
 
 ## Patterns
 
+### Generic
+
 - 6-links
   ```
   "sockets: ([rgbw]-?){6}"
@@ -21,4 +23,42 @@ This is a collection of patterns I found useful <sup>- which maybe someday will 
 - 70+ life
   ```
   "(1?[7-9][0-9].+life)"
+  ```
+
+### Item classes
+
+#### Requirements of class x
+- All of class x
+  ```
+  "class: x"
+  ```
+
+- Strength
+  ```
+  class x "^str" "!(^dex)"
+  ```
+
+- Dexterity
+  ```
+  class x "^dex" "!(^(str|int))"
+  ```
+
+- Intelligence
+  ```
+  class x "^int" "!(^(str|dex))"
+  ```
+
+- Strength / Dexterity
+  ```
+  class x str: dex:
+  ```
+
+- Strength / Intelligence
+  ```
+  class x dex: str:
+  ```
+
+- Dexterity / Intelligence
+  ```
+  class x dex: int:
   ```
