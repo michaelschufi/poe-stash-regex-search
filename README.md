@@ -4,10 +4,14 @@ GGG has [added regex search to stash tabs](https://www.reddit.com/r/pathofexile/
 
 This is a collection of patterns I found useful <sup>- which maybe someday will be turned into a small overlay app</sup>
 
-
+Contents:
+- [How does it work?](#how-does-it-work)
+- [Patterns](#patterns)
 
 ## How does it work?
 With regex search you can search each line of the item text (CTRL+C) case-insensitvely. This is equivalent to the `m` and `i` modifiers.
+
+Hint: Play around with regexes on https://regex101.com.
 
 ### Example
 Let's say you have two items (only relevant information below):
