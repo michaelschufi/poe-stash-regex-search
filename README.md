@@ -60,9 +60,6 @@ To do this, you have to define that you want the number after the text `Quality:
 "quality: \+([1-9][0-9])"
 ```
 
-
-This matches the beginning of the 
-
 ## Patterns
 
 ### Generic
@@ -125,3 +122,17 @@ This matches the beginning of the
   ```
   "class: x" dex: int:
   ```
+
+### Other
+
+- Chaos Recipe
+  ```
+  "rare"|"item level: ([6][0-9]|[7][0-4])"
+  ```
+  
+## Sources
+I didn't come up with all of them. Some sources:
+
+https://www.reddit.com/r/pathofexile/comments/n3pxxc/when_did_we_get_regex_search_in_tabs/
+https://www.reddit.com/r/pathofexile/comments/nb8j00/rolling_maps_with_regex/
+https://www.reddit.com/r/pathofexile/comments/og135v/i_learned_about_the_poe_stash_and_vendor_regex/
