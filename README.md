@@ -82,7 +82,7 @@ To do this, you have to define that you want the number after the text `Quality:
   ```
 - 80+ item level
   ```
-  "(level: [8-9][0-9])"
+  "(item level: [8-9][0-9])"
   ```
 
 ### Item classes
