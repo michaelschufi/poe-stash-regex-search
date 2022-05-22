@@ -2,7 +2,9 @@
 
 GGG has [added regex search to stash tabs](https://www.reddit.com/r/pathofexile/comments/n3pxxc/when_did_we_get_regex_search_in_tabs/gwtxiqb/?context=10) in patch 3.14.
 
-This is a collection of patterns I found useful <sup>- which maybe someday will be turned into a small overlay app</sup>
+This is a collection of patterns I find useful.
+
+Tip: Use [Awakened PoE Trade](https://github.com/SnosMe/awakened-poe-trade)'s feature to group and save your patterns.
 
 Contents:
 - [How does it work?](#how-does-it-work)
