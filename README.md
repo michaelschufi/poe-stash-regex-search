@@ -4,7 +4,7 @@ GGG has [added regex search to stash tabs](https://www.reddit.com/r/pathofexile/
 
 This is a collection of patterns I find useful.
 
-Tip: Use [Awakened PoE Trade](https://github.com/SnosMe/awakened-poe-trade)'s feature to group and save your patterns.
+Tip: Use [Awakened PoE Trade](https://github.com/SnosMe/awakened-poe-trade)'s feature to group and save your patterns. It also pastes one of the saved patterns with a click of a button. You can also use this to search a vendor's inventory.
 
 Contents:
 - [How does it work?](#how-does-it-work)
@@ -44,17 +44,19 @@ Dex: 62
 #### Basic search
 If you want to search for the item with the strength requirement you can use:
 
-This won't work:
+```
+str:
+```
+or
+```
+^str
+```
+
+However, this won't work:
 ```
 str
 ```
 since it also matches the mod.
-
-This works:
-```
-str:
-^str
-```
 
 #### At least 10% Quality
 To do this, you have to define that you want the number after the text `Quality: +` to be 2 digits long and the first digit should be 1 or higher.
