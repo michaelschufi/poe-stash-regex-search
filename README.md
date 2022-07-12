@@ -82,11 +82,14 @@ To do this, you have to define that you want the number after the text `Quality:
   ```
 - 70+ life
   ```
-  "(1?[7-9][0-9].+life)"
+  "([1-9]\d{2,}|[7-9]\d).+life"
+- 75+ life
+  ```
+  "([1-9]\d{2,}|[8-9]\d|[7][5-9]).+life"
   ```
 - 80+ item level
   ```
-  "(item level: [8-9][0-9])"
+  "item level: ([1-9]\d{2,}|[8-9]\d)"
   ```
 
 ### Item classes
